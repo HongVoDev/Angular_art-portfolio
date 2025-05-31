@@ -1,0 +1,19 @@
+<div class="overlay-modal"><br>
+    <div class="thumbnail-container"><br>
+      <button class="thumbnail-button"
+        *ngFor="let image of images; let i = index"
+        (click)="openModal(i)"><br>
+      <br>
+        <img class="thumbnail-image" [src]="image" [alt]="'Gallery Image ' + (i + 1)"><br>
+      <br></button>
+    </div><br>
+  <br>
+    <dialog #dialogElement="" class="carousel-dialog"><br>
+      <div class="carousel-container"><br>
+        <button class="carousel-button carousel-button-prev" (click)="prevImage()">❮</button><br>
+        <img [src]="selectedImage" alt="Carousel Image" class="carousel-image"><br>
+        <button class="carousel-button carousel-button-next" (click)="nextImage()">❯</button><br>
+      </div><br>
+      <button (click)="closeModal()" aria-label="close" class="x">✗</button><br>
+    </dialog><br>
+  </div>
