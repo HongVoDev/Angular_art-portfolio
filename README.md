@@ -14,6 +14,10 @@ This project provides a clean and visually appealing way to present artwork onli
 * **TypeScript:** Leverages TypeScript for enhanced code quality and maintainability. ✅
 * **Easy Asset Replacement:** The project is structured to easily replace placeholder images with original artwork. 🔄
 
+  ## ☁️ Demo
+
+![Quick demo gif](https://github.com/HongVoDev/Angular_art-portfolio/blob/9f6ec7fc7ed5260092ebfc4b491c39163b62c735/Art_Portfolio_Demo.gif)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 🧑‍💻
